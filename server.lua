@@ -29,7 +29,7 @@ Citizen.CreatThread(function()
                 end
             end
             if not status then
-                if whook ~= "DEINWEBHOOKHIER" then
+                if trigger.whook ~= "DEINWEBHOOKHIER" then
                     DCLog(trigger.whook, trigger.tname, trigger.tname.." wurde von " .. GetPlayerName(source) .. "[" ..source.. "] ausgelöst")
                 end
                 -- PLACER YOUR PLAYER-BAN EVENT HERE --
