@@ -1,0 +1,1 @@
+With this script you can allow events for certain jobs only. You only have to add the ban-trigger of your anticheat or other script at the marked position in the code (line 35).
