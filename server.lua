@@ -15,7 +15,7 @@ Config.JobTrigger = {
   }
 }
 
-Citizen.CreatThread(function()
+Citizen.CreateThread(function()
     local status
     for _, trigger in ipairs(Config.JobTrigger) do
         AddEventHandler(trigger.tname, function()
